@@ -11,7 +11,7 @@ export const ModalDetail = (props) => {
         </Modal.Header>
         <Modal.Body>
           <section className="flex items-center ">
-            <img className="rounded-md max-md:w-40" src={props.details.img} alt="images" />
+            <img className="rounded-md max-md:w-24" src={props.details.img} alt="images" />
             <ul className="-ml-4">
               <li className="max-md:text-sm">Title English : {props.data.title_english}</li>
               <li className="max-md:text-sm">Title Japanse : {props.data.title_japanese}</li>
